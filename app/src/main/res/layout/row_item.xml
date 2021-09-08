@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/wordTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Word:" />
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tagExplanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explanation:" />
+
+    <TextView
+        android:id="@+id/explanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp" />
+
+</LinearLayout>

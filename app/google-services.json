@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "695058543257",
+    "project_id": "vocabapk",
+    "storage_bucket": "vocabapk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695058543257:android:0e990de9f86bf6a000fe08",
+        "android_client_info": {
+          "package_name": "com.example.vocabapk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695058543257-l8teko9519im01no6u8tqjk0p95lvdfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuhj8sC42mS2uqBQuGiwGJ2Nrn081E7pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695058543257-l8teko9519im01no6u8tqjk0p95lvdfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

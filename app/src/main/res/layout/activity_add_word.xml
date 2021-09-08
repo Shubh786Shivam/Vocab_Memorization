@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWord">
+
+    <EditText
+        android:id="@+id/Word"
+        android:layout_width="369dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/category" />
+
+    <EditText
+        android:id="@+id/explanation"
+        android:layout_width="363dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Explanation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Word" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="147dp"
+        android:text="Add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explanation" />
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
